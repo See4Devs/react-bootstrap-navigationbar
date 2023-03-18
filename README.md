@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Bootstrap navigation bar](https://i.imgur.com/EEL179t.gif)
+
 ## Available Scripts
 
 In the project directory, you can run:
