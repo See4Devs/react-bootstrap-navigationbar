@@ -7,13 +7,9 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.navbarContainer{
-    padding: 10px;
-}
-
 .navLink {
-  color: #ffffff;
-  font-weight: 500;
+  color: #c9c1c1;
+  font-weight: 300;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   transition: color 0.3s, background-color 0.3s;
@@ -24,20 +20,5 @@
 }
 
 .navLink:hover {
-  color: #1877F2;
-  background-color: #ffffff;
-  text-decoration: none;
+  background-color: #fff;
 }
-
-.active {
-    color: #1877F2;
-    font-weight: 500;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    transition: color 0.3s, background-color 0.3s;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: #ffffff;
-  }

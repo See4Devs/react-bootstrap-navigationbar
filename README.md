@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Bootstrap navigation bar](https://i.imgur.com/EEL179t.gif)
+![Bootstrap navigation bar](https://i.imgur.com/BJzSkTx.gif)
 
 ## Available Scripts
 

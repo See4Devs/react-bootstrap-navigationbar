@@ -8,17 +8,19 @@ const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg" className={styles.navbar}>
       <Container className={styles.navbarContainer}>
+        <Navbar.Brand as={NavLink} to="/">YourBrand</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className={`me-auto`}>
-            <NavLink to="/" className={({ isActive }) => isActive? styles.active: styles.navLink } >
+          <Nav className="me-auto">
+            <Nav.Link as={NavLink} to="/" className={styles.navLink}>
               Home
-            </NavLink>
-            <NavLink to="/about" className={({ isActive }) => isActive? styles.active: styles.navLink } >
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/about" className={styles.navLink}>
               About
-            </NavLink>
-            <NavLink to="/contact" className={({ isActive }) => isActive? styles.active: styles.navLink } >
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/contact" className={styles.navLink}>
               Contact
-            </NavLink>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
